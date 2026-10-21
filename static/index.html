@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DC Digs</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar" aria-label="Library">
+    <div class="brand"><img class="logo" src="/static/logo.png" alt="" width="50" height="72">DC Digs</div>
+    <div class="views" id="views"></div>
+    <div class="page-links"><a href="/settings" id="openSettings">Settings →</a></div>
+
+    <div class="group">
+      <div class="eyebrow">Sources</div>
+      <div id="sources" class="sources"></div>
+    </div>
+
+    <div class="group settings">
+      <div class="eyebrow">Player</div>
+      <label class="start-at">
+        <span>Preview starts at <b id="startAtValue">50%</b></span>
+        <input id="startAt" type="range" min="0" max="90" step="5" value="50">
+      </label>
+      <label class="wave-toggle"><input id="waveformToggle" type="checkbox" checked> Waveform <small>(loads each track once more)</small></label>
+      <label class="wave-toggle"><input id="autoNextToggle" type="checkbox" checked> Auto-next after 60 s <small>(untouched playback)</small></label>
+    </div>
+
+    <div class="group">
+      <div class="eyebrow">Collector</div>
+      <details id="runStatus" class="run-status">
+        <summary><span class="status-dot" id="runDot"></span><span id="runText">—</span></summary>
+        <ol id="runList" class="run-list"></ol>
+      </details>
+      <div class="next-run" id="nextRun"></div>
+    </div>
+
+    <div class="keys" aria-label="Keyboard shortcuts">
+      <div><kbd>Space</kbd> play / pause</div>
+      <div><kbd>←</kbd><kbd>→</kbd> 30 s · <kbd>1</kbd>–<kbd>9</kbd> jump</div>
+      <div><kbd>J</kbd><kbd>K</kbd> next / prev release</div>
+      <div><kbd>N</kbd> next track · <kbd>F</kbd> fav · <kbd>X</kbd> remove</div>
+    </div>
+  </nav>
+
+  <section class="list" aria-label="Releases">
+    <header class="list-head">
+      <div>
+        <h1 id="heading">Inbox</h1>
+        <div id="subheading" class="sub"></div>
+      </div>
+      <div class="sort" role="group" aria-label="Sort">
+        <button data-sort="score" class="on">Score</button>
+        <button data-sort="newest">Newest</button>
+      </div>
+    </header>
+    <div id="rows" class="rows"></div>
+  </section>
+
+  <article id="detail" class="detail" aria-label="Selected release"></article>
+</div>
+<dialog id="settingsDialog" class="modal" aria-labelledby="settingsTitle">
+  <div class="modal-head">
+    <h2 id="settingsTitle">Settings</h2>
+    <button type="button" class="modal-close" id="closeSettings" aria-label="Close settings">×</button>
+  </div>
+  <iframe id="settingsFrame" title="Settings" src="about:blank"></iframe>
+</dialog>
+<audio id="audio" preload="none"></audio>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,605 @@
+{
+ "results": [
+  {
+   "item_id": 7001,
+   "item_type": "a",
+   "title": "New Arrival 1",
+   "item_url": "https://new-artist-1.bandcamp.com/album/new-arrival-1?from=discover_page",
+   "band_name": "New Artist 1",
+   "album_artist": null,
+   "release_date": "2026-09-02 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7002,
+   "item_type": "a",
+   "title": "New Arrival 2",
+   "item_url": "https://new-artist-2.bandcamp.com/album/new-arrival-2?from=discover_page",
+   "band_name": "New Artist 2",
+   "album_artist": null,
+   "release_date": "2026-09-03 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7003,
+   "item_type": "a",
+   "title": "New Arrival 3",
+   "item_url": "https://new-artist-3.bandcamp.com/album/new-arrival-3?from=discover_page",
+   "band_name": "New Artist 3",
+   "album_artist": null,
+   "release_date": "2026-09-04 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7004,
+   "item_type": "a",
+   "title": "New Arrival 4",
+   "item_url": "https://new-artist-4.bandcamp.com/album/new-arrival-4?from=discover_page",
+   "band_name": "New Artist 4",
+   "album_artist": null,
+   "release_date": "2026-09-05 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7005,
+   "item_type": "a",
+   "title": "New Arrival 5",
+   "item_url": "https://new-artist-5.bandcamp.com/album/new-arrival-5?from=discover_page",
+   "band_name": "New Artist 5",
+   "album_artist": null,
+   "release_date": "2026-09-06 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7006,
+   "item_type": "a",
+   "title": "New Arrival 6",
+   "item_url": "https://new-artist-6.bandcamp.com/album/new-arrival-6?from=discover_page",
+   "band_name": "New Artist 6",
+   "album_artist": null,
+   "release_date": "2026-09-07 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7007,
+   "item_type": "a",
+   "title": "New Arrival 7",
+   "item_url": "https://new-artist-7.bandcamp.com/album/new-arrival-7?from=discover_page",
+   "band_name": "New Artist 7",
+   "album_artist": null,
+   "release_date": "2026-09-08 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7008,
+   "item_type": "a",
+   "title": "New Arrival 8",
+   "item_url": "https://new-artist-8.bandcamp.com/album/new-arrival-8?from=discover_page",
+   "band_name": "New Artist 8",
+   "album_artist": null,
+   "release_date": "2026-09-09 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7009,
+   "item_type": "a",
+   "title": "New Arrival 9",
+   "item_url": "https://new-artist-9.bandcamp.com/album/new-arrival-9?from=discover_page",
+   "band_name": "New Artist 9",
+   "album_artist": null,
+   "release_date": "2026-09-10 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7010,
+   "item_type": "a",
+   "title": "New Arrival 10",
+   "item_url": "https://new-artist-10.bandcamp.com/album/new-arrival-10?from=discover_page",
+   "band_name": "New Artist 10",
+   "album_artist": null,
+   "release_date": "2026-09-11 00:00:00 UTC",
+   "is_album_preorder": true
+  },
+  {
+   "item_id": 7011,
+   "item_type": "a",
+   "title": "New Arrival 11",
+   "item_url": "https://new-artist-11.bandcamp.com/album/new-arrival-11?from=discover_page",
+   "band_name": "New Artist 11",
+   "album_artist": null,
+   "release_date": "2026-09-12 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7012,
+   "item_type": "a",
+   "title": "New Arrival 12",
+   "item_url": "https://new-artist-12.bandcamp.com/album/new-arrival-12?from=discover_page",
+   "band_name": "New Artist 12",
+   "album_artist": null,
+   "release_date": "2026-09-13 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7013,
+   "item_type": "a",
+   "title": "New Arrival 13",
+   "item_url": "https://new-artist-13.bandcamp.com/album/new-arrival-13?from=discover_page",
+   "band_name": "New Artist 13",
+   "album_artist": null,
+   "release_date": "2026-09-14 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7014,
+   "item_type": "a",
+   "title": "New Arrival 14",
+   "item_url": "https://new-artist-14.bandcamp.com/album/new-arrival-14?from=discover_page",
+   "band_name": "New Artist 14",
+   "album_artist": null,
+   "release_date": "2026-09-15 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7015,
+   "item_type": "a",
+   "title": "New Arrival 15",
+   "item_url": "https://new-artist-15.bandcamp.com/album/new-arrival-15?from=discover_page",
+   "band_name": "New Artist 15",
+   "album_artist": null,
+   "release_date": "2026-09-16 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7016,
+   "item_type": "a",
+   "title": "New Arrival 16",
+   "item_url": "https://new-artist-16.bandcamp.com/album/new-arrival-16?from=discover_page",
+   "band_name": "New Artist 16",
+   "album_artist": null,
+   "release_date": "2026-09-17 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7017,
+   "item_type": "a",
+   "title": "New Arrival 17",
+   "item_url": "https://new-artist-17.bandcamp.com/album/new-arrival-17?from=discover_page",
+   "band_name": "New Artist 17",
+   "album_artist": null,
+   "release_date": "2026-09-18 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7018,
+   "item_type": "a",
+   "title": "New Arrival 18",
+   "item_url": "https://new-artist-18.bandcamp.com/album/new-arrival-18?from=discover_page",
+   "band_name": "New Artist 18",
+   "album_artist": null,
+   "release_date": "2026-09-19 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7019,
+   "item_type": "a",
+   "title": "New Arrival 19",
+   "item_url": "https://new-artist-19.bandcamp.com/album/new-arrival-19?from=discover_page",
+   "band_name": "New Artist 19",
+   "album_artist": null,
+   "release_date": "2026-09-20 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7020,
+   "item_type": "a",
+   "title": "New Arrival 20",
+   "item_url": "https://new-artist-20.bandcamp.com/album/new-arrival-20?from=discover_page",
+   "band_name": "New Artist 20",
+   "album_artist": null,
+   "release_date": "2026-09-21 00:00:00 UTC",
+   "is_album_preorder": true
+  },
+  {
+   "item_id": 7021,
+   "item_type": "a",
+   "title": "New Arrival 21",
+   "item_url": "https://new-artist-21.bandcamp.com/album/new-arrival-21?from=discover_page",
+   "band_name": "New Artist 21",
+   "album_artist": null,
+   "release_date": "2026-09-22 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7022,
+   "item_type": "a",
+   "title": "New Arrival 22",
+   "item_url": "https://new-artist-22.bandcamp.com/album/new-arrival-22?from=discover_page",
+   "band_name": "New Artist 22",
+   "album_artist": null,
+   "release_date": "2026-09-23 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7023,
+   "item_type": "a",
+   "title": "New Arrival 23",
+   "item_url": "https://new-artist-23.bandcamp.com/album/new-arrival-23?from=discover_page",
+   "band_name": "New Artist 23",
+   "album_artist": null,
+   "release_date": "2026-09-24 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7024,
+   "item_type": "a",
+   "title": "New Arrival 24",
+   "item_url": "https://new-artist-24.bandcamp.com/album/new-arrival-24?from=discover_page",
+   "band_name": "New Artist 24",
+   "album_artist": null,
+   "release_date": "2026-09-25 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7025,
+   "item_type": "a",
+   "title": "New Arrival 25",
+   "item_url": "https://new-artist-25.bandcamp.com/album/new-arrival-25?from=discover_page",
+   "band_name": "New Artist 25",
+   "album_artist": null,
+   "release_date": "2026-09-26 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7026,
+   "item_type": "a",
+   "title": "New Arrival 26",
+   "item_url": "https://new-artist-26.bandcamp.com/album/new-arrival-26?from=discover_page",
+   "band_name": "New Artist 26",
+   "album_artist": null,
+   "release_date": "2026-09-27 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7027,
+   "item_type": "a",
+   "title": "New Arrival 27",
+   "item_url": "https://new-artist-27.bandcamp.com/album/new-arrival-27?from=discover_page",
+   "band_name": "New Artist 27",
+   "album_artist": null,
+   "release_date": "2026-09-28 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7028,
+   "item_type": "a",
+   "title": "New Arrival 28",
+   "item_url": "https://new-artist-28.bandcamp.com/album/new-arrival-28?from=discover_page",
+   "band_name": "New Artist 28",
+   "album_artist": null,
+   "release_date": "2026-09-01 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7029,
+   "item_type": "a",
+   "title": "New Arrival 29",
+   "item_url": "https://new-artist-29.bandcamp.com/album/new-arrival-29?from=discover_page",
+   "band_name": "New Artist 29",
+   "album_artist": null,
+   "release_date": "2026-09-02 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7030,
+   "item_type": "a",
+   "title": "New Arrival 30",
+   "item_url": "https://new-artist-30.bandcamp.com/album/new-arrival-30?from=discover_page",
+   "band_name": "New Artist 30",
+   "album_artist": null,
+   "release_date": "2026-09-03 00:00:00 UTC",
+   "is_album_preorder": true
+  },
+  {
+   "item_id": 7031,
+   "item_type": "a",
+   "title": "New Arrival 31",
+   "item_url": "https://new-artist-31.bandcamp.com/album/new-arrival-31?from=discover_page",
+   "band_name": "New Artist 31",
+   "album_artist": null,
+   "release_date": "2026-09-04 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7032,
+   "item_type": "a",
+   "title": "New Arrival 32",
+   "item_url": "https://new-artist-32.bandcamp.com/album/new-arrival-32?from=discover_page",
+   "band_name": "New Artist 32",
+   "album_artist": null,
+   "release_date": "2026-09-05 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7033,
+   "item_type": "a",
+   "title": "New Arrival 33",
+   "item_url": "https://new-artist-33.bandcamp.com/album/new-arrival-33?from=discover_page",
+   "band_name": "New Artist 33",
+   "album_artist": null,
+   "release_date": "2026-09-06 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7034,
+   "item_type": "a",
+   "title": "New Arrival 34",
+   "item_url": "https://new-artist-34.bandcamp.com/album/new-arrival-34?from=discover_page",
+   "band_name": "New Artist 34",
+   "album_artist": null,
+   "release_date": "2026-09-07 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7035,
+   "item_type": "a",
+   "title": "New Arrival 35",
+   "item_url": "https://new-artist-35.bandcamp.com/album/new-arrival-35?from=discover_page",
+   "band_name": "New Artist 35",
+   "album_artist": null,
+   "release_date": "2026-09-08 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7036,
+   "item_type": "a",
+   "title": "New Arrival 36",
+   "item_url": "https://new-artist-36.bandcamp.com/album/new-arrival-36?from=discover_page",
+   "band_name": "New Artist 36",
+   "album_artist": null,
+   "release_date": "2026-09-09 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7037,
+   "item_type": "a",
+   "title": "New Arrival 37",
+   "item_url": "https://new-artist-37.bandcamp.com/album/new-arrival-37?from=discover_page",
+   "band_name": "New Artist 37",
+   "album_artist": null,
+   "release_date": "2026-09-10 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7038,
+   "item_type": "a",
+   "title": "New Arrival 38",
+   "item_url": "https://new-artist-38.bandcamp.com/album/new-arrival-38?from=discover_page",
+   "band_name": "New Artist 38",
+   "album_artist": null,
+   "release_date": "2026-09-11 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7039,
+   "item_type": "a",
+   "title": "New Arrival 39",
+   "item_url": "https://new-artist-39.bandcamp.com/album/new-arrival-39?from=discover_page",
+   "band_name": "New Artist 39",
+   "album_artist": null,
+   "release_date": "2026-09-12 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7040,
+   "item_type": "a",
+   "title": "New Arrival 40",
+   "item_url": "https://new-artist-40.bandcamp.com/album/new-arrival-40?from=discover_page",
+   "band_name": "New Artist 40",
+   "album_artist": null,
+   "release_date": "2026-09-13 00:00:00 UTC",
+   "is_album_preorder": true
+  },
+  {
+   "item_id": 7041,
+   "item_type": "a",
+   "title": "New Arrival 41",
+   "item_url": "https://new-artist-41.bandcamp.com/album/new-arrival-41?from=discover_page",
+   "band_name": "New Artist 41",
+   "album_artist": null,
+   "release_date": "2026-09-14 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7042,
+   "item_type": "a",
+   "title": "New Arrival 42",
+   "item_url": "https://new-artist-42.bandcamp.com/album/new-arrival-42?from=discover_page",
+   "band_name": "New Artist 42",
+   "album_artist": null,
+   "release_date": "2026-09-15 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7043,
+   "item_type": "a",
+   "title": "New Arrival 43",
+   "item_url": "https://new-artist-43.bandcamp.com/album/new-arrival-43?from=discover_page",
+   "band_name": "New Artist 43",
+   "album_artist": null,
+   "release_date": "2026-09-16 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7044,
+   "item_type": "a",
+   "title": "New Arrival 44",
+   "item_url": "https://new-artist-44.bandcamp.com/album/new-arrival-44?from=discover_page",
+   "band_name": "New Artist 44",
+   "album_artist": null,
+   "release_date": "2026-09-17 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7045,
+   "item_type": "a",
+   "title": "New Arrival 45",
+   "item_url": "https://new-artist-45.bandcamp.com/album/new-arrival-45?from=discover_page",
+   "band_name": "New Artist 45",
+   "album_artist": null,
+   "release_date": "2026-09-18 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7046,
+   "item_type": "a",
+   "title": "New Arrival 46",
+   "item_url": "https://new-artist-46.bandcamp.com/album/new-arrival-46?from=discover_page",
+   "band_name": "New Artist 46",
+   "album_artist": null,
+   "release_date": "2026-09-19 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7047,
+   "item_type": "a",
+   "title": "New Arrival 47",
+   "item_url": "https://new-artist-47.bandcamp.com/album/new-arrival-47?from=discover_page",
+   "band_name": "New Artist 47",
+   "album_artist": null,
+   "release_date": "2026-09-20 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7048,
+   "item_type": "a",
+   "title": "New Arrival 48",
+   "item_url": "https://new-artist-48.bandcamp.com/album/new-arrival-48?from=discover_page",
+   "band_name": "New Artist 48",
+   "album_artist": null,
+   "release_date": "2026-09-21 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7049,
+   "item_type": "a",
+   "title": "New Arrival 49",
+   "item_url": "https://new-artist-49.bandcamp.com/album/new-arrival-49?from=discover_page",
+   "band_name": "New Artist 49",
+   "album_artist": null,
+   "release_date": "2026-09-22 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7050,
+   "item_type": "a",
+   "title": "New Arrival 50",
+   "item_url": "https://new-artist-50.bandcamp.com/album/new-arrival-50?from=discover_page",
+   "band_name": "New Artist 50",
+   "album_artist": null,
+   "release_date": "2026-09-23 00:00:00 UTC",
+   "is_album_preorder": true
+  },
+  {
+   "item_id": 7051,
+   "item_type": "a",
+   "title": "New Arrival 51",
+   "item_url": "https://new-artist-51.bandcamp.com/album/new-arrival-51?from=discover_page",
+   "band_name": "New Artist 51",
+   "album_artist": null,
+   "release_date": "2026-09-24 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7052,
+   "item_type": "a",
+   "title": "New Arrival 52",
+   "item_url": "https://new-artist-52.bandcamp.com/album/new-arrival-52?from=discover_page",
+   "band_name": "New Artist 52",
+   "album_artist": null,
+   "release_date": "2026-09-25 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7053,
+   "item_type": "a",
+   "title": "New Arrival 53",
+   "item_url": "https://new-artist-53.bandcamp.com/album/new-arrival-53?from=discover_page",
+   "band_name": "New Artist 53",
+   "album_artist": null,
+   "release_date": "2026-09-26 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7054,
+   "item_type": "a",
+   "title": "New Arrival 54",
+   "item_url": "https://new-artist-54.bandcamp.com/album/new-arrival-54?from=discover_page",
+   "band_name": "New Artist 54",
+   "album_artist": null,
+   "release_date": "2026-09-27 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7055,
+   "item_type": "a",
+   "title": "New Arrival 55",
+   "item_url": "https://new-artist-55.bandcamp.com/album/new-arrival-55?from=discover_page",
+   "band_name": "New Artist 55",
+   "album_artist": null,
+   "release_date": "2026-09-28 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7056,
+   "item_type": "a",
+   "title": "New Arrival 56",
+   "item_url": "https://new-artist-56.bandcamp.com/album/new-arrival-56?from=discover_page",
+   "band_name": "New Artist 56",
+   "album_artist": null,
+   "release_date": "2026-09-01 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7057,
+   "item_type": "a",
+   "title": "New Arrival 57",
+   "item_url": "https://new-artist-57.bandcamp.com/album/new-arrival-57?from=discover_page",
+   "band_name": "New Artist 57",
+   "album_artist": null,
+   "release_date": "2026-09-02 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7058,
+   "item_type": "a",
+   "title": "New Arrival 58",
+   "item_url": "https://new-artist-58.bandcamp.com/album/new-arrival-58?from=discover_page",
+   "band_name": "New Artist 58",
+   "album_artist": null,
+   "release_date": "2026-09-03 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7059,
+   "item_type": "a",
+   "title": "New Arrival 59",
+   "item_url": "https://new-artist-59.bandcamp.com/album/new-arrival-59?from=discover_page",
+   "band_name": "New Artist 59",
+   "album_artist": null,
+   "release_date": "2026-09-04 00:00:00 UTC",
+   "is_album_preorder": false
+  },
+  {
+   "item_id": 7060,
+   "item_type": "a",
+   "title": "New Arrival 60",
+   "item_url": "https://new-artist-60.bandcamp.com/album/new-arrival-60?from=discover_page",
+   "band_name": "New Artist 60",
+   "album_artist": null,
+   "release_date": "2026-09-05 00:00:00 UTC",
+   "is_album_preorder": true
+  }
+ ],
+ "result_count": 60
+}

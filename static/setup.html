@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set up DC Digs</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/static/app.css">
+<link rel="stylesheet" href="/static/settings.css">
+<link rel="stylesheet" href="/static/setup.css">
+</head>
+<body class="page">
+<main class="setup">
+  <header class="welcome">
+    <img src="/static/logo.png" alt="" width="70" height="100">
+    <div>
+      <h1>Welcome to DC Digs</h1>
+      <p class="sub">A daily inbox of Bandcamp releases picked for your taste. Tell it what you like; it digs every day and you just listen and sort.</p>
+    </div>
+  </header>
+
+  <form id="setup" class="card" autocomplete="off">
+    <section class="step">
+      <h2><span class="n">1</span> Reference tracks</h2>
+      <p class="help">Paste links to Bandcamp tracks or albums you love, one per line. DC Digs looks at what the people who bought them also bought, and brings you the releases several of them share, in the same genre.<br>
+        Example: <code>https://artist.bandcamp.com/track/some-track</code></p>
+      <label class="name"><span>Inbox name</span><input id="name1" type="text" maxlength="30" placeholder="Inbox"></label>
+      <textarea id="refs1" rows="5" placeholder="https://…bandcamp.com/track/…&#10;https://…bandcamp.com/album/…"></textarea>
+      <p class="hint">5–10 references is a good start. You can change them any time in Settings.</p>
+    </section>
+
+    <section class="step">
+      <h2><span class="n">2</span> A second inbox <small>optional</small></h2>
+      <p class="help">Dig for a second style side by side, with its own reference tracks. Leave empty if you don't need it.</p>
+      <label class="name"><span>Inbox name</span><input id="name2" type="text" maxlength="30" placeholder="Inbox 2"></label>
+      <textarea id="refs2" rows="3" placeholder="https://…bandcamp.com/track/…"></textarea>
+    </section>
+
+    <section class="step">
+      <h2><span class="n">3</span> Your Bandcamp name <small>optional</small></h2>
+      <p class="help">If you follow artists and labels on Bandcamp, their new releases come into the first inbox too. Your name is the part after <code>bandcamp.com/</code> on your fan page.</p>
+      <label class="name"><span>bandcamp.com/</span><input id="username" type="text" maxlength="80" placeholder="your-name"></label>
+    </section>
+
+    <section class="step">
+      <h2><span class="n">4</span> When to dig</h2>
+      <p class="help">Once a day, while DC Digs is running. If the computer is off then, it catches up the next time it starts.</p>
+      <label class="name"><span>Every day at</span><input id="dailyAt" type="time" value="06:00"></label>
+    </section>
+
+    <div class="save-bar">
+      <span id="status" class="status" role="status"></span>
+      <button type="submit" class="big primary" id="go">Start digging</button>
+    </div>
+  </form>
+
+  <p class="small-print">DC Digs runs only on this computer and talks to Bandcamp the way a browser does. It isn't made or endorsed by Bandcamp.</p>
+</main>
+<script src="/static/setup.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "item_url": "https://example-label-1.bandcamp.com/album/release-1",
+   "item_title": "Release 1",
+   "band_name": "Example Label 1",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-2.bandcamp.com/album/release-2",
+   "item_title": "Release 2",
+   "band_name": "Example Label 2",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-3.bandcamp.com/album/release-3",
+   "item_title": "Release 3",
+   "band_name": "Example Label 3",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-4.bandcamp.com/album/release-4",
+   "item_title": "Release 4",
+   "band_name": "Example Label 4",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-5.bandcamp.com/album/release-5",
+   "item_title": "Release 5",
+   "band_name": "Example Label 5",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-6.bandcamp.com/album/release-6",
+   "item_title": "Release 6",
+   "band_name": "Example Label 6",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-7.bandcamp.com/album/release-7",
+   "item_title": "Release 7",
+   "band_name": "Example Label 7",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-8.bandcamp.com/album/release-8",
+   "item_title": "Release 8",
+   "band_name": "Example Label 8",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-9.bandcamp.com/album/release-9",
+   "item_title": "Release 9",
+   "band_name": "Example Label 9",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-10.bandcamp.com/album/release-10",
+   "item_title": "Release 10",
+   "band_name": "Example Label 10",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-11.bandcamp.com/album/release-11",
+   "item_title": "Release 11",
+   "band_name": "Example Label 11",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-12.bandcamp.com/album/release-12",
+   "item_title": "Release 12",
+   "band_name": "Example Label 12",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-13.bandcamp.com/album/release-13",
+   "item_title": "Release 13",
+   "band_name": "Example Label 13",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-14.bandcamp.com/album/release-14",
+   "item_title": "Release 14",
+   "band_name": "Example Label 14",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-15.bandcamp.com/album/release-15",
+   "item_title": "Release 15",
+   "band_name": "Example Label 15",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-16.bandcamp.com/album/release-16",
+   "item_title": "Release 16",
+   "band_name": "Example Label 16",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-17.bandcamp.com/album/release-17",
+   "item_title": "Release 17",
+   "band_name": "Example Label 17",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-18.bandcamp.com/album/release-18",
+   "item_title": "Release 18",
+   "band_name": "Example Label 18",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-19.bandcamp.com/album/release-19",
+   "item_title": "Release 19",
+   "band_name": "Example Label 19",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-20.bandcamp.com/album/release-20",
+   "item_title": "Release 20",
+   "band_name": "Example Label 20",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-21.bandcamp.com/album/release-21",
+   "item_title": "Release 21",
+   "band_name": "Example Label 21",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-22.bandcamp.com/album/release-22",
+   "item_title": "Release 22",
+   "band_name": "Example Label 22",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-23.bandcamp.com/album/release-23",
+   "item_title": "Release 23",
+   "band_name": "Example Label 23",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-24.bandcamp.com/album/release-24",
+   "item_title": "Release 24",
+   "band_name": "Example Label 24",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-25.bandcamp.com/album/release-25",
+   "item_title": "Release 25",
+   "band_name": "Example Label 25",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-26.bandcamp.com/album/release-26",
+   "item_title": "Release 26",
+   "band_name": "Example Label 26",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-27.bandcamp.com/album/release-27",
+   "item_title": "Release 27",
+   "band_name": "Example Label 27",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-28.bandcamp.com/album/release-28",
+   "item_title": "Release 28",
+   "band_name": "Example Label 28",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-29.bandcamp.com/album/release-29",
+   "item_title": "Release 29",
+   "band_name": "Example Label 29",
+   "item_type": "album"
+  },
+  {
+   "item_url": "https://example-label-30.bandcamp.com/album/release-30",
+   "item_title": "Release 30",
+   "band_name": "Example Label 30",
+   "item_type": "album"
+  }
+ ],
+ "more_available": true
+}

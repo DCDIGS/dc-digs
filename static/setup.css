@@ -1,0 +1,24 @@
+/* First-run setup wizard; tokens from app.css, form pieces from settings.css */
+.setup { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 24px; }
+.welcome { display: flex; gap: 20px; align-items: center; }
+.welcome img { height: 100px; width: auto; flex-shrink: 0; }
+.welcome h1 { margin: 0 0 6px; font-size: 30px; font-weight: 600; }
+.welcome .sub { font-size: 15px; line-height: 1.5; max-width: 52ch; }
+.step { display: flex; flex-direction: column; gap: 10px; padding-bottom: 20px; border-bottom: 1px solid var(--line-soft); }
+.step:last-of-type { border-bottom: 0; }
+.step h2 { display: flex; align-items: center; gap: 10px; }
+.step h2 small { font-weight: 400; font-size: 13px; color: var(--muted); }
+.step .n {
+  width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: var(--bg);
+  display: inline-flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 13px;
+}
+.help { margin: 0; font-size: 14px; line-height: 1.55; color: var(--muted); }
+.help code, .small-print code { font-family: var(--mono); font-size: 12px; background: var(--selected); padding: 1px 5px; border-radius: 4px; color: var(--ink); }
+.hint { margin: 0; font-size: 13px; color: var(--muted); }
+.setup textarea {
+  width: 100%; resize: vertical; padding: 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: #fff; font-family: var(--mono); font-size: 13px; line-height: 1.6; color: var(--ink);
+}
+.setup input[type="time"] { width: auto; }
+.small-print { font-size: 12px; color: var(--muted); text-align: center; margin: 0; }
+@media (max-width: 560px) { .welcome { flex-direction: column; align-items: flex-start; } }

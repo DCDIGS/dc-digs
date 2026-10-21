@@ -1,0 +1,14 @@
+# your own data and settings: never committed
+.env
+criteria.yaml
+data/
+cache/
+logs/
+
+# environment and tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db

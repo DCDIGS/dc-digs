@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DC Digs settings</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/static/app.css">
+<link rel="stylesheet" href="/static/settings.css">
+</head>
+<body class="page">
+<header class="page-head">
+  <a class="brand" href="/"><img class="logo" src="/static/logo.png" alt="" width="40" height="58">DC Digs</a>
+  <nav class="page-nav"><a href="/">Inbox</a><a href="/settings" aria-current="page">Settings</a></nav>
+</header>
+
+<main class="settings">
+  <div class="settings-title">
+    <h1>Settings</h1>
+    <p class="sub">Saved to <code>criteria.yaml</code>. The inbox re-ranks right away; new sources are collected on the next run.</p>
+  </div>
+
+  <form id="form" autocomplete="off">
+    <section class="card">
+      <h2>Sources</h2>
+
+      <div class="field">
+        <div class="label"><b>Reference tracks — inbox 1</b><small>Paste Bandcamp track or album links. You get what their buyers also bought, in a genre the reference shares.</small></div>
+        <label class="name"><span>Inbox name</span><input type="text" name="sources.inbox_names.0" maxlength="30" placeholder="Inbox"></label>
+        <div class="chips refs" data-list="sources.reference_tracks" data-link=""></div>
+      </div>
+      <div class="field">
+        <div class="label"><b>Reference tracks — inbox 2</b><small>A second, separate list for another style. What it finds goes to the second inbox.</small></div>
+        <label class="name"><span>Inbox name</span><input type="text" name="sources.inbox_names.1" maxlength="30" placeholder="Inbox 2"></label>
+        <div class="chips refs" data-list="sources.reference_tracks_2" data-link=""></div>
+      </div>
+      <div class="grid2">
+        <label class="num"><span>Buyers read per reference</span><input type="number" name="sources.reference_buyers" min="5" max="400"></label>
+        <label class="num"><span>Purchases read per buyer</span><input type="number" name="sources.reference_items_per_buyer" min="20" max="500"></label>
+        <label class="num"><span>Owned by at least … buyers</span><input type="number" name="sources.reference_min_buyers" min="1" max="50"></label>
+        <label class="num"><span>New per reference per run</span><input type="number" name="sources.reference_max_new" min="1" max="200"></label>
+        <label class="num"><span>Max releases per artist per reference</span><input type="number" name="sources.reference_max_per_artist" min="1" max="50"></label>
+      </div>
+      <label class="switch"><input type="checkbox" name="filters.references_ignore_max_age">
+        <span><b>Reference results can be any age</b><small>Off: only releases within the max age below.</small></span></label>
+
+      <label class="name"><span>Your Bandcamp name: bandcamp.com/</span><input type="text" name="sources.bandcamp_username" maxlength="80" placeholder="your-name"></label>
+      <label class="switch"><input type="checkbox" name="sources.bandcamp_follows">
+        <span><b>Bandcamp follows</b><small>New releases from artists and labels you follow on Bandcamp.</small></span></label>
+
+      <label class="switch"><input type="checkbox" name="sources.tag_feeds_enabled">
+        <span><b>Bandcamp tag feeds</b><small>New arrivals per tag. Broad; off by default.</small></span></label>
+      <div class="field">
+        <div class="label"><b>Tags</b><small>Paste a tag or a <code>bandcamp.com/discover/…</code> link, then press Enter.</small></div>
+        <div class="chips" data-list="sources.tag_feeds" data-link="https://bandcamp.com/discover/"></div>
+      </div>
+      <label class="num"><span>Releases per tag feed</span><input type="number" name="sources.tag_feed_size" min="1" max="60"></label>
+
+      <label class="switch"><input type="checkbox" name="sources.recommendations_from_favourites">
+        <span><b>“You may also like” from favourites</b><small>When you favourite a release, the next run collects its recommendations (one hop).</small></span></label>
+
+      <div class="field">
+        <div class="label"><b>Watched labels</b><small>Bandcamp labels or artists to watch without following them. Paste their Bandcamp link or name.</small></div>
+        <div class="chips" data-list="sources.labels"></div>
+      </div>
+
+    </section>
+
+    <section class="card">
+      <h2>Daily dig</h2>
+      <label class="num"><span>Collect new picks every day at (while DC Digs is running; missed runs catch up at the next start)</span><input type="time" name="schedule.daily_at" style="width:auto"></label>
+    </section>
+
+    <section class="card">
+      <h2>Filters <small>hard rules: matching releases never reach the inbox</small></h2>
+      <label class="num"><span>Max age (days, by release date; pre-orders always pass)</span><input type="number" name="filters.max_age_days" min="1" max="3650"></label>
+      <label class="switch"><input type="checkbox" name="filters.recommendations_ignore_max_age">
+        <span><b>Recommendations ignore max age</b><small>“You may also like” is often older music.</small></span></label>
+      <div class="field">
+        <div class="label"><b>Formats</b></div>
+        <div class="checks" id="formats">
+          <label><input type="checkbox" value="single"> single</label>
+          <label><input type="checkbox" value="EP"> EP</label>
+          <label><input type="checkbox" value="LP"> LP</label>
+        </div>
+      </div>
+      <div class="field">
+        <div class="label"><b>Exclude tags</b><small>Releases with any of these tags are skipped.</small></div>
+        <div class="chips" data-list="filters.exclude_tags"></div>
+      </div>
+      <label class="num"><span>Max releases per Bandcamp account per run (tag feeds; 0 = no limit)</span><input type="number" name="filters.tag_feed_max_per_account" min="0" max="60"></label>
+      <div class="field">
+        <div class="label"><b>Exclude accounts</b><small>Bandcamp account names to ignore in tag feeds, e.g. mass uploaders.</small></div>
+        <div class="chips" data-list="filters.exclude_accounts"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Ranking <small>soft rules: ordering only</small></h2>
+      <div class="field">
+        <div class="label"><b>Tag boosts</b><small>Only the best-matching tag counts per release.</small></div>
+        <div id="boostTags" class="pairs"></div>
+        <button type="button" class="small" id="addBoost">+ Add tag boost</button>
+      </div>
+      <div class="grid2">
+        <label class="num"><span>Label of a favourite</span><input type="number" name="ranking.boost_labels_of_favourites" min="-20" max="20"></label>
+        <label class="num"><span>Artist of a favourite</span><input type="number" name="ranking.boost_artists_of_favourites" min="-20" max="20"></label>
+        <label class="num"><span>Per extra tag feed</span><input type="number" name="ranking.boost_multiple_tag_feeds" min="-20" max="20"></label>
+        <label class="num"><span>Per buyer of a reference who owns it</span><input type="number" name="ranking.boost_per_co_buyer" min="-20" max="20"></label>
+        <label class="num"><span>Max per reference</span><input type="number" name="ranking.max_co_buyer_boost" min="-20" max="20"></label>
+      </div>
+      <div class="field">
+        <div class="label"><b>Source weights</b></div>
+        <div id="sourceWeights" class="grid2"></div>
+      </div>
+    </section>
+
+    <div class="save-bar">
+      <span id="status" class="status" role="status"></span>
+      <button type="submit" class="big">Save</button>
+      <button type="button" class="big primary" id="saveCollect">Save &amp; collect now</button>
+    </div>
+  </form>
+
+  <details class="card raw">
+    <summary><h2>Edit criteria.yaml directly</h2></summary>
+    <p class="sub">For keys the form doesn't cover. Your comments are kept when you save here; saving the form above rewrites the file in its standard layout.</p>
+    <textarea id="raw" spellcheck="false"></textarea>
+    <div class="save-bar"><span id="rawStatus" class="status" role="status"></span><button type="button" class="big" id="saveRaw">Save YAML</button></div>
+  </details>
+</main>
+<script src="/static/settings.js"></script>
+</body>
+</html>
